@@ -1,7 +1,7 @@
-FROM varnish:6.6-alpine
+FROM varnish:7.0-alpine
 LABEL maintainer="bjoern.kraus@phoenix-media.eu"
 
-ENV VARNISH_VERSION 6.6
+ENV VARNISH_VERSION 7.0
 
 RUN BASE_PKGS="py3-docutils python3 autoconf make automake libtool git"; \
     apk add --virtual varnish-build-deps -q --no-progress --update $BASE_PKGS \
