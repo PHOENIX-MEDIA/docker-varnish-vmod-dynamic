@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/PHOENIX-MEDIA/docker-varnish-vmod-dynamic/actions/workflows/docker-image.yml/badge.svg)](https://github.com/PHOENIX-MEDIA/docker-varnish-vmod-dynamic/actions/workflows/docker-image.yml)
+
 # Varnish Docker image + vmod-dynamic
 
 The Varnish Docker community is publishing [official images](https://hub.docker.com/_/varnish). This fork simply adds
